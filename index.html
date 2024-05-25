@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Do List</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <section id="introduction-section" class="content-container introduction">
+      <h1>My To Do List</h1>
+      <p>
+        This is the coding assignment for Week 1, implementing a simple
+        web-based to-do list using HTML, CSS, and JavaScript.
+      </p>
+    </section>
+    <section id="main-content" class="content-container body-content">
+      <input type="text" name="newTask" id="newTask" placeholder="Add a Task" />
+      <button id="addTask">Add Task</button>
+      <button id="removeTask">Remove Selected Tasks</button>
+    </section>
+    <section id="task-list-section" class="content-container body-content">
+      <ul>
+        <li><input type="checkbox" id="task1" />Task 1</li>
+        <li><input type="checkbox" id="task2" />Task 2</li>
+        <li>Task 3</li>
+      </ul>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
